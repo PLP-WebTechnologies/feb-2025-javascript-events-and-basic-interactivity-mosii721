@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>🎉 JavaScript Interactive Playground</h1>
+
+    <!-- Interactive Button -->
+    <button class="magic-button">Click Me! 🎈</button>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <img src="https://picsum.photos/200/150?random=1" alt="Gallery Image 1">
+        <img src="https://picsum.photos/200/150?random=2" alt="Gallery Image 2">
+        <img src="https://picsum.photos/200/150?random=3" alt="Gallery Image 3">
+        <img src="https://picsum.photos/200/150?random=4" alt="Gallery Image 4">
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <div class="tab-buttons">
+            <button class="tab-button active" data-tab="tab1">Tab 1</button>
+            <button class="tab-button" data-tab="tab2">Tab 2</button>
+            <button class="tab-button" data-tab="tab3">Tab 3</button>
+        </div>
+        <div class="tab-content active" id="tab1">
+            <h3>Welcome to Tab 1</h3>
+            <p>This is the first tab</p>
+        </div>
+        <div class="tab-content" id="tab2">
+            <h3>Tab 2 Content</h3>
+            <p>You reached the second tab keep going </p>
+        </div>
+        <div class="tab-content" id="tab3">
+            <h3>Tab 3 Goodies</h3>
+            <p>This is the final tab you made it!</p>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div class="form-container">
+        <form id="signup-form">
+            <h2>Sign Up</h2>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required autocomplete="off">
+                <div class="error" id="name-error">Name is required</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required autocomplete="off">
+                <div class="error" id="email-error">Please enter a valid email</div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required autocomplete="off">
+                <div class="error" id="password-error">Password must be at least 8 characters</div>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
