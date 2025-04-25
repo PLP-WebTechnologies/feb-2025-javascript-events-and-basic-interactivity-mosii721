@@ -1,4 +1,4 @@
-const magicButton = document.querySelector('.magic-button');
+        const magicButton = document.querySelector('.magic-button');
         let clickCount = 0;
         const colors = ['#3498db', '#e74c3c', '#2ecc71', '#f1c40f'];
         const texts = ['Click Me!', 'Wow!', 'Amazing!', 'Keep Going!'];
